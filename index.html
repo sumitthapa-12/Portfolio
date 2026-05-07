@@ -19,9 +19,9 @@
 
   <!-- ── NAVBAR ── -->
   <nav class="navbar" id="navbar">
-    <div class="nav-logo">S<span>.</span></div>
+    <div class="nav-logo">Sumit<span>.</span></div>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#home" class="nav-link active">Homee</a></li>
+      <li><a href="#home" class="nav-link active">Home</a></li>
       <li><a href="#about" class="nav-link">About</a></li>
       <li><a href="#skills" class="nav-link">Skills</a></li>
       <li><a href="#services" class="nav-link">Services</a></li>
@@ -60,12 +60,35 @@
       </div>
     </div>
     <div class="hero-visual">
+      <!-- Decorative rings -->
       <div class="avatar-ring ring-3"></div>
       <div class="avatar-ring ring-2"></div>
-      <div class="avatar-ring ring-1"></div>
-      <div class="avatar-blob">
-        <div class="avatar-initials">S</div>
+
+      <!-- Photo Frame -->
+      <div class="photo-frame-wrapper">
+        <div class="photo-spin-border"></div>
+        <div class="photo-frame">
+          <img src="Assest/Sumit.jpg" alt="Sumit" class="avatar-photo"
+               onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="avatar-initials avatar-fallback">S</div>
+          <!-- Overlays -->
+          <div class="photo-scan"></div>
+          <div class="photo-gradient-overlay"></div>
+          <div class="photo-corner c-tl"></div>
+          <div class="photo-corner c-tr"></div>
+          <div class="photo-corner c-bl"></div>
+          <div class="photo-corner c-br"></div>
+        </div>
+        <!-- HUD labels -->
+        <div class="photo-hud hud-top">
+          <span class="hud-dot"></span>SUMIT THAPA
+        </div>
+        <div class="photo-hud hud-bottom">
+          <span class="hud-dot hud-green"></span>AVAILABLE FOR WORK
+        </div>
       </div>
+
+      <!-- Floating badges -->
       <div class="floating-badge badge-1"><i class="fa-solid fa-film"></i> Video Editor</div>
       <div class="floating-badge badge-2"><i class="fa-solid fa-wand-magic-sparkles"></i> Motion FX</div>
       <div class="floating-badge badge-3"><i class="fa-solid fa-code"></i> Web Dev</div>
@@ -86,7 +109,13 @@
         <div class="about-card-wrap">
           <div class="about-card">
             <div class="about-avatar">
-              <span>S</span>
+              <div class="about-spin-ring"></div>
+              <div class="about-photo-wrap">
+                <img src="profile.jpg" alt="Sumit" class="about-photo"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                <span class="about-initials about-fallback">S</span>
+                <div class="about-photo-overlay"></div>
+              </div>
               <div class="about-glow"></div>
             </div>
             <div class="about-tags">
